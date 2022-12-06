@@ -1,0 +1,11 @@
+
+  
+<div *ngIf="item">
+    <h1 class="text-center text-dark mt-3"> Welcome {{user}}</h1>
+
+<div  class="border p-4 mx-auto w-25 bg-light  text-center" style="border-radius: 5px;">
+    <h6>Are you sure, do you want to delete your account ? {{item}}</h6>
+    <button (click)="delete()" class="btn btn-danger">Yes</button>&nbsp;&nbsp;&nbsp;
+    <button (click)="cancel()" class="btn btn-success">No</button>
+</div>
+</div>

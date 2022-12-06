@@ -1,0 +1,15 @@
+
+.row{
+    background-image: url(https://img.freepik.com/free-vector/abstract-classic-blue-screensaver_23-2148421853.jpg?w=1060&t=st=1667107590~exp=1667108190~hmac=38e85b4a82e198537fce2143563fba3f8081c0f348a639491382695c4b512e92);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+form{
+    background-image: url(https://wallpapercave.com/wp/wp3144364.png);
+    border-radius: 10px;
+
+}

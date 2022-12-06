@@ -1,0 +1,18 @@
+form{
+    border-radius: 10px;
+    margin-bottom: 199px;
+   
+    background: #3A8CA8;
+    background: -webkit-linear-gradient(top left, #3A8CA8, #2BC5C1);
+    background: -moz-linear-gradient(top left, #3A8CA8, #2BC5C1);
+    background: linear-gradient(to bottom right, #3A8CA8, #2BC5C1);
+}
+.row{
+    background-image: url(https://www.sss-solutions.org/wp-content/uploads/2018/01/1116146294-login-page-background-image-112-300x188.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}

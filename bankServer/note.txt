@@ -1,0 +1,56 @@
+
+
+
+
+
+                               Server - Node JS,ExPRESS
+
+                          1. create a folder and create  package.json file : npm init
+
+                          2. create entry point file : index.json
+
+                          3. install express int the server : npm i express
+                          
+                          4. import express inside index.js file
+                          
+                          5. create server app using express 
+
+                          6. set up port for server app
+
+                          7. to resolve client http request
+
+                             http response status code
+                              1xx - information
+                              2xx - success
+                              3xx - redirection
+                              4xx - client error
+                              5xx - server error
+
+                          8. to connect Mongo Db  with server
+                             8.1 mongoose library - npm i mongoose
+
+                          9. API call - Asynchronous - to resolve use promise
+                                      -resolve state - .then(),
+                                      -reject state  - .catch() 
+                           10. cors(cross origin Resource Sharing) 
+                               -install cors: npm i cors
+                               -import cors in index.js
+                              -use cors inside   
+                           11. json web token(jwt) - to authenticate request     
+                               - Install jsonwebtoken: npm i jsonwebtoken
+                               - Import jsonwebtoken in dataservice.js
+                               - To generate token when login success- sign() method
+                               - To send the token to client 
+                               
+                               - client will send token along with request aftrer login
+                               - verify token which is available index.js
+                                 - import jsonwebtoken inindex.js
+                                 - verify token - verify() before resolving client
+
+                           12. Middleware - special function (req,res,next) for authentication 
+                              - it can effect request response cycle
+                              it is two type
+                              - Application specific  Middleware  
+                              - Router specific Middleware  
+
+                           13. Attribute directives- based on some condition we can put style in html    
